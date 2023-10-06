@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Playground for me</title>
+</head>
+<body>
+    <nav><div id="page-name"><h1>My playground</h1></div></nav>
+    <div id="game">
+        <div>
+            <span>Score: <span id="score"></span></span>
+        </div>
+        <div id="wordle">
+            <table id="board">
+                <thead>
+                    <th id="text-status">Let's play wordle. Press Start!</th>
+                    <button id="start-game" onclick="startGame()">Start</button>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="snake">
+        <canvas id="snake-board">
+
+        </canvas>
+    </div>
+    <script src="./snake.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
